@@ -17,19 +17,23 @@ Depois, vem a quantidade de arestas e a lista com os vértices que compõem as a
 Por fim têm-se a quantidade de regiões e os valores para cálculo de factibilidade.
 As instâncias de exemplo estão no diretório "instances".
 
-número de unidades de referência
-id_unidade_referencia coord_x coord_y consumidores_unid_ref demanda_unid_ref carga_trabalho_unid_ref
-...
+Estrutura:
 
-quantidade_arestas
-unid_i unid_j (indica que, no grafo, a unidade i liga à unidade j)
-...
+       número de unidades de referência
+       id_unidade_referencia coord_x coord_y consumidores_unid_ref demanda_unid_ref carga_trabalho_unid_ref
+       ...
 
-qtde_regioes lambda_consumidores lambda_demanda lambda_carga_trabalho
+       quantidade_arestas
+       unid_i unid_j (indica que, no grafo, a unidade i liga à unidade j)
+       ...
+
+       qtde_regioes lambda_consumidores lambda_demanda lambda_carga_trabalho
 
 ## Desenvolvedores
 
 Arthur Henrique Sousa Cruz (github: thuzax)
+
 João Pedro Teodoro Silva (github: joaopedroteo)
+
 Pedro Silveira Lopes (github: silventino)
 
